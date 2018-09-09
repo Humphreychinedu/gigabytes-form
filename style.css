@@ -1,0 +1,285 @@
+body {
+    padding: 20px;
+    font-size: 18px;
+    /*background-image: url("img/class.jpeg");*/
+    min-width: 100%;
+    margin: auto;
+    background: #028fcc;
+    opacity:1;
+    z-index:0.5;
+    font-family: Verdana;
+}
+
+#logo {
+  width: 100px;
+  height:100px;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  margin-right: 0 auto;
+  margin-left: 745px;
+  /*margin: 0 auto;*/
+  background-image: url("img/class100.jpeg");
+  /*background-image: url("img/class.jpeg") no-repeat center center fixed;*/
+}
+#container {
+    margin: 0 auto;
+    text-align: center;
+    widows: 50%;
+    padding: 20px;
+    font-size: 18px;
+    border: silver;
+    border-radius: 5px;
+    /*min-width: 100%;*/
+}
+
+#response {
+  width: 600px;; 
+  margin: 0 auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #fff; 
+  border-radius: 5px; 
+  text-align: center;
+}
+
+input:invalid:required,
+input:invalid {
+	background-color: #f7f7f7;
+	border: 2px solid #8b9dc3;
+}
+
+form {
+    margin: auto;
+    
+}
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    padding: 20px;
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+legend {
+	border-bottom: 2px solid #dfe3ee;
+	color: #f7f7f7;
+	font-family: Verdana;
+  text-align: center;
+    
+}
+input[type=text],
+input[type=email],
+input[type=submit],
+
+textarea {
+	border: 2px solid #8b9dc3;
+	border-radius: 5px;
+	padding: 7px;
+  width: 300px;
+  margin: 10px;
+}
+
+fieldset { min-width: 100%; }
+
+textarea {
+	height: 100px;
+	vertical-align: top;
+}
+
+input[type=submit] {
+	background-color: rgb(105, 167, 78);
+	color: #fff;
+	cursor:pointer;
+	font-weight: bold;
+  width: 320px;
+  text-align: center;
+  margin-left:32px;
+
+}
+/* input[type=button] {
+	background-color: #EFBDB8;
+	border-color: #8B0000;
+	color: #8b0000;
+	cursor:pointer;
+	font-weight: bold;
+	
+    width: 320px;
+    text-align: center;
+} */
+
+.form-error {
+    color: red;
+    text-align: center;
+    width: 92%; 
+    margin: 0 auto; 
+}
+
+/*.form-success {
+    color: green;
+}
+
+.input-error {
+    border: 0 0 5px red;
+}
+*/
+.error {
+  width: 600px;; 
+  margin: 0 auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #fff; 
+  border-radius: 5px; 
+  text-align: center;
+  transition: width 5s ease-in-out
+}
+
+.success {
+  width: 30%; 
+  margin: 0 auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: rgb(105, 167, 78); 
+  background:#fff; 
+  border-radius: 5px; 
+  text-align: center;
+  transition: width 5s ease-in-out
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 980px) {
+   #container {
+       width:auto;
+       min-width: 100%;    
+  }
+
+  input[type=submit] {
+    text-align: center;
+  }
+
+  form {
+    margin:auto;
+    width:auto;
+  }
+
+  legend {
+  width: auto;
+  text-align: center;
+    
+}
+
+  fieldset {
+      width: auto;
+  }
+
+  fieldset { min-width: 100%; }
+}
+
+#logo {
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  margin-right: 0 auto;
+  margin-left: 745px;}
+
+@media screen and (max-width: 650px) {
+   #container {
+       width:auto;
+       min-width: 100%;
+       
+  }
+
+   .success {
+    margin-left: -70px;
+}
+
+
+  input[type=submit] {
+    text-align: center;
+  }
+
+  form {
+    width:auto;
+  }
+
+  legend {
+  width: auto;
+  text-align: center;
+    
+}
+
+  fieldset {
+      width: auto;
+  }
+
+  fieldset { min-width: 100%; }
+}
+
+ .success {
+    width:;
+    /*width: auto;*/
+
+    padding: 20px;
+    font-size: 20px;
+    width: 600px;
+}
+
+#logo {
+  margin: 0 auto; }
+
+
+@media screen and (max-width: 480px) {
+    #container { 
+      min-width: 100%; 
+  }
+
+  fieldset {
+   min-width: 100%;
+   margin-left: -75px; }
+
+  input[type=submit] {
+    text-align: center;
+    width: 0 auto;
+    margin-left: -70px;
+  }
+
+  .success {
+    width: auto;
+    margin-left: -70px;
+    height: 30px;
+    text-align: center;
+    padding-top:-20px;
+}
+
+ #response {
+    width: auto;
+    margin-left: -70px;
+    height: 30px;
+    text-align: center;
+    padding-top:-20px
+  }
+
+ legend {
+  width: auto;
+  margin-left: -70px;  
+}
+
+#logo {
+  width: 100px;
+  height:100px;
+  margin-left: 80px; 
+  /*background-image: url("img/class.jpeg") no-repeat center center fixed;*/
+}
+
+.error {
+    width: auto;
+    margin-left: -70px;
+    text-align: center;
+    padding:10px;
+}
+
+}
